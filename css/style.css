@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*header part start*/
+header{
+    width: 90%;
+    margin: auto;
+    /* margin-top: 30%; */
+    margin-top: 30px;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{}
+.logo img{}
+.menu{
+    /* list-style: none; */
+}
+.menu ul{
+    /* float: left; */
+    /* margin-left: 50px; */
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+    margin-left: 60px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #626262;
+    font-size: 14px;
+    letter-spacing: normal;
+    padding-bottom: 5px;
+}
+.menu ul li a:hover{
+    color:blue;
+    border-bottom: 3px solid blue;   
+}
+/*header part end*/
+
+/*banner part start*/
+.banner{
+    width:80%;
+    margin:auto;
+    margin-top: 30px;
+}
+.banner img{
+    width: 100%;
+}
+/*banner part end*/
+
+/*photodiary part start*/
+
+.photodiary{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.photodiary h5{
+    color: #b4ad9e;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.photodiary h1{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.photodiary p{
+    color: #b4ad9e;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.photodiary a{text-decoration: none;color: #b4ad9e;font-family: 'Ubuntu', sans-serif;}
+
+/*photodiary part end*/
+
+/*Blog part start*/
+.Lifestyle{
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.Lifestyle1 img{
+    width: 100%;
+}
+.Lifestyle1 h5{
+    color: #b4ad9e;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 30px;
+}
+.Lifestyle1 h1{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-top: 15px; 
+}
+.Lifestyle1 p{
+    color: #b4ad9e;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.Lifestyle1{
+    width: 45%;
+}
+/*Blog part end*/
+
+/*Signup part start*/
+.Newsletter{
+    background-color: #f0f0f0;
+    min-height: 200px;
+    text-align: center;
+}
+.content{
+    width: 18%;
+    margin: auto;
+    text-align: left;
+}
+.Newsletter h1{
+    margin-top: 30px;
+    padding-top: 50px;
+}
+.Newsletter input{
+    margin-top: 50px;
+    border: none;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #575757;
+    padding-bottom: 10px;
+    width: 100%;
+}
+/*Signup part end*/
+
+/*Load part start*/
+.button{
+    text-align: center;
+    min-height: 300px;
+}
+.button input{
+    background-color: white;
+    margin-top: 100px;
+    padding: 15px;
+    border: none;
+    border: 1.5px solid #bcbcbc;
+}
+/*Load part end*/
+
+/*Footer part end*/
+footer{
+    background-color: #f0f0f0;
+    min-height: 70px;
+}
+.footer-content{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 28px;
+    padding-left: 65px;
+}
+.Privacy{
+    width: 30%;
+}
+.Privacy ul{
+    list-style: none;
+    /* text-decoration: none; */
+}
+.Privacy ul li{
+    text-decoration: none;
+    float: left;
+    margin-right: 31px;
+    /* color: beige; */
+}
+.Privacy ul li a{
+    text-decoration: none;
+    color: #5f5f5f;
+}
+.Social_icon{width: 25%;}
+.Social_icon ul{
+    list-style: none;
+}
+.Social_icon ul li{
+    float: left;
+    margin-right: 20px;
+}
+.Social_icon ul li a {
+    text-decoration: none;
+    color: #5f5f5f;
+}
+.Social_icon ul li a i{}
+
+/*Footer part end*/
